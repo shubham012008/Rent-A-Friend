@@ -1,0 +1,40 @@
+:root{--ivory:#F7F5F0;--stone:#EAE8E1;--ink:#191C1B;--forest:#405B4B;--forest-d:#2F4638;--amber:#C49A5A;--amber-d:#8A6428;--muted:#5F625D;--white:#fff;--line:#D9D6CC;--err:#A23B2A;--ok:#2F6B4A;
+--serif:'Playfair Display',Georgia,'Times New Roman',serif;--sans:'DM Sans',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;
+--s1:.25rem;--s2:.5rem;--s3:.75rem;--s4:1rem;--s5:1.5rem;--s6:2rem;--s7:3rem;--s8:4.5rem;--r:6px;--deep:#191C1B;--on-deep:#F7F5F0;--on-primary:#fff;--on-amber:#191C1B;--hw:500;--wrap:1180px;--ease:cubic-bezier(.22,.61,.36,1)}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--ivory);color:var(--ink);font:400 1rem/1.65 var(--sans);overflow-x:hidden}
+img,svg{max-width:100%;display:block}
+h1,h2,h3{font-family:var(--serif);font-weight:var(--hw);line-height:1.15;margin:0 0 var(--s4);letter-spacing:-.01em}
+h1{font-size:clamp(2.2rem,5vw,3.6rem)}h2{font-size:clamp(1.7rem,3.2vw,2.35rem)}h3{font-size:1.25rem}
+h4{font-size:1rem;margin:0 0 var(--s2)}
+p{margin:0 0 var(--s4)}a{color:var(--forest);text-underline-offset:3px}
+.lead{font-size:1.125rem;color:var(--muted);max-width:56ch}.muted{color:var(--muted)}
+.container{width:min(100% - 2.5rem,var(--wrap));margin-inline:auto}
+.section{padding-block:var(--s8)}.section.tight{padding-block:var(--s7)}.section.alt{background:var(--stone)}.section.dark{background:var(--deep);color:var(--on-deep)}
+.section-head{max-width:640px;margin-bottom:var(--s6)}
+:focus-visible{outline:3px solid var(--amber-d);outline-offset:3px;border-radius:3px}
+.skip{position:absolute;left:-999px;top:0;background:var(--ink);color:#fff;padding:var(--s3) var(--s4);z-index:200}.skip:focus{left:0}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:var(--s2);min-height:46px;padding:.65rem 1.4rem;border-radius:var(--r);border:1.5px solid transparent;font:600 .95rem var(--sans);text-decoration:none;cursor:pointer;transition:background .25s var(--ease),color .25s,transform .2s,border-color .25s}
+.btn:active{transform:scale(.97)}
+.btn-primary{background:var(--forest);color:var(--on-primary)}.btn-primary:hover{background:var(--forest-d)}
+.btn-dark{background:var(--deep);color:var(--on-deep)}.btn-dark:hover{filter:brightness(1.25)}
+.btn-ghost{border-color:var(--ink);color:var(--ink);background:transparent}.btn-ghost:hover{background:var(--ink);color:var(--ivory)}
+.btn-amber{background:var(--amber);color:var(--on-amber)}.btn-amber:hover{background:#d4aa6b}
+.btn-sm{min-height:38px;padding:.4rem 1rem;font-size:.875rem}.btn[disabled]{opacity:.5;cursor:not-allowed}
+.site-header{position:sticky;top:0;z-index:100;background:color-mix(in srgb,var(--ivory) 95%,transparent);border-bottom:1px solid transparent;transition:border-color .3s}
+.site-header.scrolled{border-color:var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;min-height:68px;gap:var(--s5)}
+.brand{font:600 1.35rem var(--serif);color:var(--ink);text-decoration:none;white-space:nowrap}.brand b{color:var(--amber-d);font-style:italic;font-weight:500}
+.nav-links{display:flex;align-items:center;gap:var(--s5);list-style:none;margin:0;padding:0}
+.nav-links a:not(.btn){color:var(--ink);text-decoration:none;font-size:.95rem;font-weight:500;padding:.35rem 0;border-bottom:2px solid transparent}
+.nav-links a:not(.btn):hover,.nav-links a[aria-current=page]{border-color:var(--amber)}
+.nav-toggle{display:none;background:none;border:0;width:44px;height:44px;cursor:pointer;padding:0}
+.nav-toggle span{display:block;width:22px;height:2px;background:var(--ink);margin:5px auto;transition:transform .3s,opacity .3s}
+.site-footer{background:var(--deep);color:#cfd2cc;padding:var(--s8) 0 var(--s5)}
+.site-footer a{color:#cfd2cc;text-decoration:none}.site-footer a:hover{color:#fff;text-decoration:underline}
+.site-footer .brand{color:#fff}.footer-grid{display:grid;grid-template-columns:1.6fr repeat(3,1fr);gap:var(--s6)}
+.footer-grid ul{list-style:none;margin:0;padding:0}.footer-grid li{margin-bottom:var(--s2)}
+.site-footer h4{color:#fff;font-family:var(--serif);font-weight:500;font-size:1.05rem}
+.footer-note{border-top:1px solid #343836;margin-top:var(--s6);padding-top:var(--s5);font-size:.85rem;color:#9a9e97}

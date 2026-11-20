@@ -1,0 +1,23 @@
+/* Themes: set with <html data-theme="..." data-font="...">. Classic is the default (variables in style.css). */
+:root[data-font=editorial]{--serif:'Playfair Display',Georgia,serif;--sans:'DM Sans',system-ui,sans-serif;--hw:500}
+:root[data-font=rounded]{--serif:'Zen Maru Gothic','Nunito',system-ui,sans-serif;--sans:'Nunito',system-ui,sans-serif;--hw:700}
+:root[data-font=kawaii]{--serif:'Fredoka','Nunito',system-ui,sans-serif;--sans:'Nunito',system-ui,sans-serif;--hw:600}
+:root[data-font=modern]{--serif:'Manrope',system-ui,sans-serif;--sans:'Manrope',system-ui,sans-serif;--hw:700}
+:root[data-font=modern] h1,:root[data-font=modern] h2{letter-spacing:-.025em}
+:root[data-theme=sakura]{--ivory:#FFF5F8;--stone:#FCE4EC;--ink:#3A2A35;--forest:#C2447A;--forest-d:#9E2E61;--amber:#F3B24C;--amber-d:#9A5A00;--muted:#6B5560;--white:#FFFFFF;--line:#F2CBD8;--deep:#4A2B4F;--on-deep:#FFEAF2;--r:16px}
+:root[data-theme=night]{--ivory:#12132A;--stone:#1A1C3A;--ink:#ECEBFF;--forest:#9DB4FF;--forest-d:#B9C9FF;--amber:#FFD27A;--amber-d:#FFD27A;--muted:#A9ABD0;--white:#1F2247;--line:#363A70;--deep:#0A0B1C;--on-deep:#ECEBFF;--on-primary:#10122A;--err:#FF8F7E;--ok:#7DE0A6;--r:16px}
+:root[data-theme=matcha]{--ivory:#F3F6EC;--stone:#E3EBD3;--ink:#1F2A1E;--forest:#56793A;--forest-d:#3F5C2A;--amber:#D9A441;--amber-d:#8A6414;--muted:#566250;--white:#FFFFFF;--line:#D1DCBA;--deep:#26331F;--on-deep:#EEF5E2;--r:10px}
+:root[data-theme=night]{color-scheme:dark}
+:root[data-theme=night] .badge{background:#2A3A66;color:#CFE0FF}:root[data-theme=night] .badge.warn{background:#4A3A1A;color:#FFD27A}
+:root[data-theme=night] .fc-img,:root[data-theme=night] .empty{background:var(--white)}
+/* Anime themes: pill buttons, soft offset shadows, dotted paper, sparkles, mascot */
+:root[data-theme=sakura] body,:root[data-theme=night] body{background-image:radial-gradient(var(--line) 1.1px,transparent 1.2px);background-size:24px 24px}
+:root[data-theme=sakura] .btn,:root[data-theme=night] .btn,:root[data-theme=sakura] .tag,:root[data-theme=night] .tag{border-radius:99px}
+:root[data-theme=sakura] .card,:root[data-theme=night] .card{border-width:2px;box-shadow:0 5px 0 var(--line)}
+:root[data-theme=sakura] .friend-card:hover,:root[data-theme=night] .friend-card:hover{transform:translateY(-4px) rotate(-.4deg)}
+:root[data-theme=sakura] h2::after,:root[data-theme=night] h2::after{content:' ✦';color:var(--amber);font-size:.6em;vertical-align:.25em}
+:root[data-theme=sakura] .mascot,:root[data-theme=night] .mascot{display:block}
+:root[data-theme=sakura] .section.alt,:root[data-theme=night] .section.alt{background-color:var(--stone);background-image:none}
+:root[data-theme=sakura] .site-header,:root[data-theme=night] .site-header{border-bottom:2px dashed var(--line)}
+:root[data-theme=sakura] .hero-stack .ph,:root[data-theme=night] .hero-stack .ph{border:3px solid var(--white);box-shadow:0 6px 0 var(--line)}
+:root[data-theme=matcha] .card{box-shadow:0 1px 0 var(--line)}

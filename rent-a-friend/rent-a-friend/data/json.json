@@ -1,0 +1,409 @@
+{
+ "_note": "Demo data only. All people, reviews and figures are fictional.",
+ "profiles": [
+  {
+   "id": "p1",
+   "name": "Aarav Mehta",
+   "age": 27,
+   "city": "Delhi",
+   "interests": [
+    "Coffee",
+    "City walks",
+    "Books",
+    "Photography"
+   ],
+   "languages": [
+    "English",
+    "Hindi"
+   ],
+   "rate": 700,
+   "availability": [
+    "Weekends",
+    "Evenings"
+   ],
+   "rating": 4.9,
+   "reviews": 38,
+   "joined": 5,
+   "tone": "#405B4B",
+   "bio": "Easy-going listener who knows every good chai spot in Old Delhi.",
+   "personality": "Warm, curious and unhurried.",
+   "activities": [
+    "Coffee and conversation",
+    "Heritage walk",
+    "Bookshop browsing"
+   ],
+   "verified": true,
+   "demoReviews": [
+    {
+     "by": "Sample reviewer A",
+     "stars": 5,
+     "text": "Demo review: relaxed, respectful and easy to talk to."
+    },
+    {
+     "by": "Sample reviewer B",
+     "stars": 5,
+     "text": "Demo review: arrived on time and kept to the plan we agreed."
+    },
+    {
+     "by": "Sample reviewer C",
+     "stars": 4,
+     "text": "Demo review: friendly and well prepared."
+    }
+   ]
+  },
+  {
+   "id": "p2",
+   "name": "Meera Nair",
+   "age": 31,
+   "city": "Bengaluru",
+   "interests": [
+    "Movies",
+    "Cafes",
+    "Travel",
+    "Art"
+   ],
+   "languages": [
+    "English",
+    "Malayalam",
+    "Hindi"
+   ],
+   "rate": 900,
+   "availability": [
+    "Weekdays",
+    "Weekends"
+   ],
+   "rating": 4.8,
+   "reviews": 52,
+   "joined": 2,
+   "tone": "#8A6428",
+   "bio": "Film lover and weekend traveller happy to share a screening or a gallery visit.",
+   "personality": "Thoughtful, funny, a good planner.",
+   "activities": [
+    "Movie companion",
+    "Gallery visit",
+    "Day-trip planning"
+   ],
+   "verified": true,
+   "demoReviews": [
+    {
+     "by": "Sample reviewer A",
+     "stars": 5,
+     "text": "Demo review: relaxed, respectful and easy to talk to."
+    },
+    {
+     "by": "Sample reviewer B",
+     "stars": 5,
+     "text": "Demo review: arrived on time and kept to the plan we agreed."
+    },
+    {
+     "by": "Sample reviewer C",
+     "stars": 4,
+     "text": "Demo review: friendly and well prepared."
+    }
+   ]
+  },
+  {
+   "id": "p3",
+   "name": "Kabir Singh",
+   "age": 24,
+   "city": "Mumbai",
+   "interests": [
+    "Gaming",
+    "Football",
+    "Street food",
+    "Music"
+   ],
+   "languages": [
+    "English",
+    "Hindi",
+    "Punjabi"
+   ],
+   "rate": 500,
+   "availability": [
+    "Evenings",
+    "Weekends"
+   ],
+   "rating": 4.7,
+   "reviews": 21,
+   "joined": 8,
+   "tone": "#2F4638",
+   "bio": "Casual gamer and football fan, great for a relaxed evening out.",
+   "personality": "Upbeat, laid-back, team player.",
+   "activities": [
+    "Gaming buddy",
+    "Match viewing",
+    "Street food trail"
+   ],
+   "verified": true,
+   "demoReviews": [
+    {
+     "by": "Sample reviewer A",
+     "stars": 5,
+     "text": "Demo review: relaxed, respectful and easy to talk to."
+    },
+    {
+     "by": "Sample reviewer B",
+     "stars": 5,
+     "text": "Demo review: arrived on time and kept to the plan we agreed."
+    },
+    {
+     "by": "Sample reviewer C",
+     "stars": 4,
+     "text": "Demo review: friendly and well prepared."
+    }
+   ]
+  },
+  {
+   "id": "p4",
+   "name": "Ananya Iyer",
+   "age": 29,
+   "city": "Chennai",
+   "interests": [
+    "Study",
+    "Languages",
+    "Yoga",
+    "Cooking"
+   ],
+   "languages": [
+    "English",
+    "Tamil",
+    "French"
+   ],
+   "rate": 600,
+   "availability": [
+    "Weekdays"
+   ],
+   "rating": 4.9,
+   "reviews": 44,
+   "joined": 3,
+   "tone": "#6B4E3D",
+   "bio": "Language teacher who enjoys quiet study sessions and practice conversation.",
+   "personality": "Patient, encouraging, organised.",
+   "activities": [
+    "Study companion",
+    "Language practice",
+    "Cafe work session"
+   ],
+   "verified": true,
+   "demoReviews": [
+    {
+     "by": "Sample reviewer A",
+     "stars": 5,
+     "text": "Demo review: relaxed, respectful and easy to talk to."
+    },
+    {
+     "by": "Sample reviewer B",
+     "stars": 5,
+     "text": "Demo review: arrived on time and kept to the plan we agreed."
+    },
+    {
+     "by": "Sample reviewer C",
+     "stars": 4,
+     "text": "Demo review: friendly and well prepared."
+    }
+   ]
+  },
+  {
+   "id": "p5",
+   "name": "Rohan Das",
+   "age": 33,
+   "city": "Kolkata",
+   "interests": [
+    "History",
+    "Events",
+    "Theatre",
+    "Photography"
+   ],
+   "languages": [
+    "English",
+    "Bengali",
+    "Hindi"
+   ],
+   "rate": 800,
+   "availability": [
+    "Weekends",
+    "Evenings"
+   ],
+   "rating": 4.8,
+   "reviews": 29,
+   "joined": 6,
+   "tone": "#3D4F5C",
+   "bio": "Local guide type: happy to walk you through the city or join you at an event.",
+   "personality": "Friendly, well-read, great storyteller.",
+   "activities": [
+    "City exploration",
+    "Event companion",
+    "Theatre night"
+   ],
+   "verified": true,
+   "demoReviews": [
+    {
+     "by": "Sample reviewer A",
+     "stars": 5,
+     "text": "Demo review: relaxed, respectful and easy to talk to."
+    },
+    {
+     "by": "Sample reviewer B",
+     "stars": 5,
+     "text": "Demo review: arrived on time and kept to the plan we agreed."
+    },
+    {
+     "by": "Sample reviewer C",
+     "stars": 4,
+     "text": "Demo review: friendly and well prepared."
+    }
+   ]
+  },
+  {
+   "id": "p6",
+   "name": "Isha Kapoor",
+   "age": 26,
+   "city": "Jaipur",
+   "interests": [
+    "Shopping",
+    "Fashion",
+    "Food",
+    "Dance"
+   ],
+   "languages": [
+    "English",
+    "Hindi"
+   ],
+   "rate": 650,
+   "availability": [
+    "Weekdays",
+    "Weekends"
+   ],
+   "rating": 4.6,
+   "reviews": 17,
+   "joined": 9,
+   "tone": "#7A5A63",
+   "bio": "Knows the markets and the best food stalls; great shopping sidekick.",
+   "personality": "Cheerful, honest, energetic.",
+   "activities": [
+    "Shopping companion",
+    "Food tour",
+    "Dance class buddy"
+   ],
+   "verified": true,
+   "demoReviews": [
+    {
+     "by": "Sample reviewer A",
+     "stars": 5,
+     "text": "Demo review: relaxed, respectful and easy to talk to."
+    },
+    {
+     "by": "Sample reviewer B",
+     "stars": 5,
+     "text": "Demo review: arrived on time and kept to the plan we agreed."
+    },
+    {
+     "by": "Sample reviewer C",
+     "stars": 4,
+     "text": "Demo review: friendly and well prepared."
+    }
+   ]
+  },
+  {
+   "id": "p7",
+   "name": "Vikram Rao",
+   "age": 35,
+   "city": "Hyderabad",
+   "interests": [
+    "Travel",
+    "Hiking",
+    "Cafes",
+    "Tech"
+   ],
+   "languages": [
+    "English",
+    "Telugu",
+    "Hindi"
+   ],
+   "rate": 1000,
+   "availability": [
+    "Weekends"
+   ],
+   "rating": 4.9,
+   "reviews": 61,
+   "joined": 1,
+   "tone": "#4B5A3A",
+   "bio": "Weekend hiker and traveller who enjoys unhurried conversation.",
+   "personality": "Calm, adventurous, attentive.",
+   "activities": [
+    "Travel companion",
+    "Day hikes",
+    "Coffee and conversation"
+   ],
+   "verified": true,
+   "demoReviews": [
+    {
+     "by": "Sample reviewer A",
+     "stars": 5,
+     "text": "Demo review: relaxed, respectful and easy to talk to."
+    },
+    {
+     "by": "Sample reviewer B",
+     "stars": 5,
+     "text": "Demo review: arrived on time and kept to the plan we agreed."
+    },
+    {
+     "by": "Sample reviewer C",
+     "stars": 4,
+     "text": "Demo review: friendly and well prepared."
+    }
+   ]
+  },
+  {
+   "id": "p8",
+   "name": "Sara Khan",
+   "age": 28,
+   "city": "Delhi",
+   "interests": [
+    "Books",
+    "Museums",
+    "Cafes",
+    "Writing"
+   ],
+   "languages": [
+    "English",
+    "Hindi",
+    "Urdu"
+   ],
+   "rate": 750,
+   "availability": [
+    "Weekdays",
+    "Evenings"
+   ],
+   "rating": 4.7,
+   "reviews": 24,
+   "joined": 7,
+   "tone": "#5C4A6B",
+   "bio": "Museum regular and book club host; enjoys slow afternoons and good talk.",
+   "personality": "Gentle, bright, curious.",
+   "activities": [
+    "Museum visit",
+    "Book chat",
+    "Cafe afternoon"
+   ],
+   "verified": true,
+   "demoReviews": [
+    {
+     "by": "Sample reviewer A",
+     "stars": 5,
+     "text": "Demo review: relaxed, respectful and easy to talk to."
+    },
+    {
+     "by": "Sample reviewer B",
+     "stars": 5,
+     "text": "Demo review: arrived on time and kept to the plan we agreed."
+    },
+    {
+     "by": "Sample reviewer C",
+     "stars": 4,
+     "text": "Demo review: friendly and well prepared."
+    }
+   ]
+  }
+ ]
+}

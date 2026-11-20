@@ -1,0 +1,10 @@
+body{animation:pagein .45s ease both}@keyframes pagein{from{opacity:0}to{opacity:1}}
+body.leaving{opacity:0;transition:opacity .2s}
+.hero .rise{animation:rise .9s var(--ease) both}.hero .rise:nth-child(2){animation-delay:.1s}.hero .rise:nth-child(3){animation-delay:.2s}.hero .rise:nth-child(4){animation-delay:.3s}
+.hero-stack .ph{animation:rise 1.1s var(--ease) .25s both}.hero-stack .ph:nth-child(2){animation-delay:.4s}
+@keyframes rise{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:none}}
+.reveal{opacity:0;transform:translateY(16px);transition:opacity .7s var(--ease),transform .7s var(--ease)}.reveal.in{opacity:1;transform:none}
+dialog[open]{animation:dlg .3s var(--ease)}dialog[open]::backdrop{animation:pagein .3s}@keyframes dlg{from{opacity:0;transform:translateY(14px) scale(.97)}to{opacity:1;transform:none}}
+.toast{animation:toast .35s var(--ease)}@keyframes toast{from{opacity:0;transform:translateY(12px)}}
+.skeleton{background:linear-gradient(90deg,var(--stone) 25%,#f1efe9 50%,var(--stone) 75%);background-size:200% 100%;animation:sh 1.3s infinite;border-radius:var(--r);min-height:320px}@keyframes sh{to{background-position:-200% 0}}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}.reveal{opacity:1;transform:none}}
